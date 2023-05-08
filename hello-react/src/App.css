@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.darkpart{
+  background-color: rgb(10, 0, 42);
+  height: 550px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 3rem;
+  height: 3rem;
+}
+
+.menu{
+  width: 1rem;
+  height: 1rem;
+  padding: 30px;
+}
+
+
+.whiteh1{
+  color: white;
+  font-size: 100px;
+  margin:10px;
+  max-width: 5em;
+}
+
+.whitep{
+  color: white;
+  font-size: 20px;
+  max-width: 15em;
+}
+
+.button{
+  width: 11em;
+  height: 4em;
+  background-color: white;
+  border-radius: 4px;
+  border: 0;
+}
+
+.allElements{
+  display: flex;
+  align-items: flex-start;
+}
+
+.sayhello{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 2em;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+
+.icon{
+  max-width: 200px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  
+}
